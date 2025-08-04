@@ -1,0 +1,46 @@
+# requirements.txt
+# FAOSTAT Rural Employment Analytics - Python Dependencies
+# 
+# Installation: pip install -r requirements.txt
+# 
+# Core Data Science Stack
+pandas>=1.5.0
+numpy>=1.21.0
+matplotlib>=3.5.0
+seaborn>=0.11.0
+scikit-learn>=1.1.0
+scipy>=1.9.0
+
+# Jupyter Environment
+jupyter>=1.0.0
+notebook>=6.4.0
+ipykernel>=6.15.0
+
+# Data Visualization
+plotly>=5.10.0
+
+# Data I/O
+openpyxl>=3.0.10        # Excel file support (.xlsx)
+xlrd>=2.0.1             # Excel file support (.xls)
+
+# Statistical Analysis (Optional but Recommended)
+statsmodels>=0.13.0
+
+# Progress Bars
+tqdm>=4.64.0
+
+# Data Profiling (Optional)
+ydata-profiling>=4.0.0
+
+# Better Data Display
+tabulate>=0.8.10
+
+# Memory Optimization
+pyarrow>=8.0.0          # For efficient data storage
+
+# Web-based Dashboards (Optional)
+dash>=2.6.0
+
+# Jupyter Extensions (Optional)
+jupyter_contrib_nbextensions>=0.5.1
+widgetsnbextension>=4.0.3
